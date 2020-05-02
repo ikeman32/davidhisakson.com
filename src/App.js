@@ -1,11 +1,11 @@
 import React from 'react';
-import { Route, Link } from 'react-router-dom';
-import {Home} from './components';
+import { Link } from 'react-router-dom';
+import Routes from './components/routes/Routes';
 import './App.scss';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <header>
         <nav>
           <Link to="/">
@@ -14,7 +14,7 @@ function App() {
         </nav>
       </header>
       <>
-        <Route exact path="/" component={Home} />
+        <Routes />
       </>
     </div>
   );
