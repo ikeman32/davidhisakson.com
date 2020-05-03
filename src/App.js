@@ -26,11 +26,11 @@ function App() {
             Contact
           </Link>
         </nav>
+        
       </header>
       <div className="Display-Area">
-        <Routes />
-      </div>
-
+          <Routes />
+        </div>
       <div className="bottom">
         <footer>
           Copyright © 2020 &nbsp; <strong>David H Isakson II</strong>
