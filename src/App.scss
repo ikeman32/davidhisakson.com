@@ -4,23 +4,38 @@ body{
 .container{
     border: 2px solid red;
     width: 80%;
+    height: 100vh;
     margin: 0 auto;
 
     header{
         border: 2px solid green;
-        width: 90%;
+        width: 95%;
         height: 8vh;
         margin: 0 auto;
-        margin-top: 1rem;
     }//header
 
     .Display-Area{
         border: 2px solid yellow;
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
-        margin-top: 1rem;
         margin-bottom: 1rem;
-    }
+    }//Display-Area
+
+    .bottom{
+        border: 1px solid purple;
+        position: fixed;
+        bottom: 0;
+        width: 78.5%;
+        padding: 0.5rem;
+
+        footer{
+            border: 1px solid green;
+            color: whitesmoke;
+            font-size: 1.4rem;
+            text-align: center;
+        }//footer
+    }//bottom
+
 }//container
 
 .navigation{
@@ -42,3 +57,4 @@ body{
         }//hover
     }//link
 }//navigation
+
