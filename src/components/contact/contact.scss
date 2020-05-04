@@ -1,0 +1,91 @@
+body {
+  background: #4b4c3e;
+
+  .contact_container {
+    width: 80%;
+    margin: 0 auto;
+    .form_section {
+      //border: 2px solid red;
+
+      .contact_form {
+        //border: 1px solid yellow;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        #name {
+          //border: 1px solid blue;
+          width: 80%;
+          margin: 0 auto;
+
+          input {
+            //border: 2px solid green;
+            font-size: 1.2rem;
+            margin: 1rem 1rem;
+            margin-left: 2rem;
+          }
+        } //name
+
+        .info {
+          //border: 1px solid blue;
+          width: 80%;
+          margin: 0 auto;
+
+          input {
+            //border: 2px solid green;
+            font-size: 1.2rem;
+            margin: 1rem 1rem;
+            margin-left: 2rem;
+          }
+        } //info
+
+        .subject {
+          //border: 1px solid blue;
+          width: 80%;
+          margin: 0 auto;
+
+          #subj {
+            //border: 2px solid green;
+            font-size: 1.2rem;
+            margin-left: 4rem;
+            width: 80%;
+          } //subj
+        } //subject
+
+        .message {
+          //border: 1px solid blue;
+          width: 80%;
+          margin: 0 auto;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+
+          textarea {
+              width: 80%;
+              margin-left: 4rem;
+          }//textarea
+        }//message
+
+        .btns{
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 1rem;
+
+            input{
+                font-size: 1.4rem;
+                border-radius: 1rem;
+                background-color: crimson;
+                color: whitesmoke;
+
+                &:hover{
+                    background-color: blue;
+                    color: #fc0;
+                }
+            }
+        }//btns
+      } //contact_form
+    } //form_section
+  } //contact_container
+}
