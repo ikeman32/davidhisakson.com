@@ -1,6 +1,10 @@
 body {
   background: #4b4c3e;
 
+  .outside{
+    width: 100%;
+  }
+
   .container {
     //border: 2px solid red;
     width: 80%;
@@ -34,14 +38,14 @@ body {
       } //navigation
     } //header
 
-    .Display-Area {
+    .Display_Area {
       //border: 2px solid yellow;
       max-width: 100%;
       max-height: 100%;
       margin: 0 auto;
       margin-bottom: 1rem;
       margin-top: 1.5rem;
-    } //Display-Area
+    } //Display_Area
     .bottom {
       //border: 1px solid purple;
       position: relative;

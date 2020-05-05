@@ -1,0 +1,65 @@
+body {
+    background: #4b4c3e;
+  
+    .Mcontainer {
+      //border: 2px solid red;
+      width: 100%;
+      height: 100%;
+      //margin: 0 auto;
+  
+      header {
+        //border: 2px solid green;
+        width: 97%;
+        //height: 8vh;
+        
+  
+        .Mnavigation {
+          //border: 1px solid red;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          &:first-child {
+            //margin-left: 0rem;
+          } //first-child
+  
+          .Mlink {
+            
+            text-decoration: none;
+            font-size: 9.5px;
+            //margin-left: 0.8rem;
+            color: whitesmoke;
+  
+            &:hover {
+              color: #fc0;
+            } //hover
+          } //link
+        } //navigation
+      } //header
+  
+      .MDisplay_Area {
+        //border: 2px solid yellow;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+      } //Display_Area
+      .Mbottom {
+        //border: 1px solid purple;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        //padding: 0.5rem;
+        //margin: 0 auto;
+  
+        
+      } //bottom
+      .Mbottom footer {
+        //border: 1px solid green;
+        color: whitesmoke;
+        font-size: 10px;
+        text-align: center;
+      } //footer
+    } //container
+  }
+  

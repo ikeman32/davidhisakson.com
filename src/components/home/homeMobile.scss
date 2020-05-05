@@ -1,0 +1,181 @@
+body {
+    background: #4b4c3e;
+    .Mhome_container {
+      .Mtop_panel {
+        //border: 2px solid blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        //margin: 1rem 1rem;
+        height: 45%;
+        //padding: 1rem;
+  
+        #Mapi {
+          //border: 1px solid green;
+          width: 100%;
+          //padding: 1rem;
+  
+          img {
+            //border: 2px solid blue;
+            max-width: 90%;
+            margin-left: 0.7rem;
+          }
+  
+          a {
+            display: block;
+            text-align: center;
+            font-size: 1.5rem;
+            color: #fc0;
+            font-weight: bold;
+            text-decoration: none;
+            outline: none;
+          } //a
+        } //api
+  
+        #Mcustom_app {
+          //border: 1px solid green;
+          width: 100%;
+          //padding: 1rem;
+  
+          img {
+            //border: 2px solid blue;
+            margin-left: 2rem;
+            max-width: 100%;
+          }
+  
+          a {
+            display: block;
+            text-align: center;
+            font-size: 1.5rem;
+            color: #fc0;
+            font-weight: bold;
+            text-decoration: none;
+            outline: none;
+          } //a
+        } //custom_app
+  
+        #Msignlingo {
+          //border: 1px solid green;
+          width: 100%;
+          //padding: 1rem;
+  
+          img {
+            //border: 2px solid blue;
+            max-width: 90%;
+            margin-left: 0.7rem;
+          }
+  
+          a {
+            display: block;
+            text-align: center;
+            font-size: 1.5rem;
+            color: #fc0;
+            font-weight: bold;
+            text-decoration: none;
+            outline: none;
+          } //a
+        }
+      } //top_panel
+  
+      .Mbottom_panel {
+        //border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        //justify-content: space-evenly;
+        //margin: 2rem 1rem;
+        height: 45%;
+        max-width: 100%;
+        padding: 1rem;
+  
+        #Mblog {
+          //border: 1px solid green;
+          max-width: 100%;
+          color: whitesmoke;
+  
+          a {
+            text-decoration: none;
+            color: whitesmoke;
+  
+            &:hover {
+              color: #Mfc0;
+            } //hover
+          } //a
+  
+          details {
+            ul {
+              list-style-type: none;
+            }
+  
+            li{
+                margin-top: 1rem;
+            }
+          } //details ul
+  
+          details ul li {
+            a {
+              text-decoration: none;
+              color: whitesmoke;
+  
+              &:hover {
+                color: #fc0;
+              } //hover
+            } //a
+          } //details ul li
+        } //blog
+  
+        #Mservices {
+          //border: 1px solid green;
+          max-width: 100%;
+          color: whitesmoke;
+  
+          ul {
+            list-style-type: none;
+          } //ul
+  
+          li{
+              margin-top: 1rem;
+          }
+        } //services
+  
+        #Mabout {
+          //border: 3px solid green;
+          max-width: 100%;
+  
+          h3 {
+            text-align: center;
+            color: whitesmoke;
+          }
+          .Mimgbox {
+            width: 60%;
+            margin: 0 auto;
+            padding: 1rem;
+  
+            img {
+              max-width: 100%;
+              max-height: 50%;
+              border-radius: 50%;
+            } //img
+          } //imgbox
+  
+          ul {
+            list-style-type: none;
+          } //ul
+  
+          li{
+              margin-top: 1rem;
+          }
+  
+          a {
+            color: whitesmoke;
+            text-decoration: none;
+          }
+  
+          #MLink {
+            color: whitesmoke;
+            text-decoration: none;
+          }
+        } //about
+      } //bottom_panel
+    } //home_container
+  }
+  
