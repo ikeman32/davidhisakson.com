@@ -3,6 +3,8 @@ import { layoutGenerator } from "react-break";
 import "./about.scss";
 import "./aboutMobile.scss";
 import me from "../assets/me.jpg";
+import linkedin from '../assets/LI-In-Bug.png';
+import github from '../assets/GitHub-Mark-120px-plus.png'
 
 const About = () => {
   //configure responsiveness
@@ -40,9 +42,14 @@ const About = () => {
               <p>
                 Email: <br></br>david.isakson.ii@gmail.com
               </p>
+
               <p>
-                Github: <br></br>https://github.com/ikeman32
-              </p>
+              <a href="https://www.linkedin.com/in/david-h-isakson-ii/" target="#">
+              <img src={linkedin} style={{width: "35px", height: "35px"}} alt="">
+              </img></a>&nbsp;
+              <a href="https://github.com/ikeman32" target="#">
+              <img src={github} style={{width: "35px", height: "35px"}} alt="">
+              </img></a></p>
             </div>
           </section>
           <p className="MmissionStatement">
@@ -152,7 +159,13 @@ const About = () => {
               <p>Location: Moses Lake</p>
               <p>Occupation: Full Stack Web Developer</p>
               <p>Email: david.isakson.ii@gmail.com</p>
-              <p>Github: https://github.com/ikeman32</p>
+              <p>
+              <a href="https://www.linkedin.com/in/david-h-isakson-ii/" target="#">
+              <img src={linkedin} style={{width: "35px", height: "35px"}} alt="">
+              </img></a>&nbsp;
+              <a href="https://github.com/ikeman32" target="#">
+              <img src={github} style={{width: "35px", height: "35px"}} alt="">
+              </img></a></p>
             </div>
           </section>
           <p className="missionStatement">

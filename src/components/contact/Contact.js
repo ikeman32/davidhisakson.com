@@ -1,8 +1,28 @@
-import React from "react";
+import React, {useState} from "react";
 import { layoutGenerator } from "react-break";
 import "./contact.scss";
+import "./contactMobile.scss";
 
 const Contact = () => {
+  const [client setClient] = useState({
+    fname: '',
+    lname: '',
+    email: '',
+    company: '',
+    subject: '',
+    message: ''
+  });
+
+  const handleChange = (e)=>{
+    setClient({
+      ...client, [e.target.name]: e.target.value
+    });
+  };
+
+  const submitHandler = (e) =>{
+    e.preventDefault();
+  }
+
   //configure responsiveness
   const layout = layoutGenerator({
     mobile: 0,
@@ -23,28 +43,48 @@ const Contact = () => {
       <OnMobile>
         <div className="Mcontact_container">
           <section className="Mform_section">
-            <form action="" method="post" className="contact_form">
+            <form onSubmit={} className="Mcontact_form">
               <div id="Mname">
                 <input
                   type="text"
                   name="fname"
+                  value={client.fname}
+                  onChange=''
                   placeholder="First Name"
                   required
                 />
                 <input
                   type="text"
                   name="lname"
+                  value={client.lname}
+                  onChange=''
                   placeholder="Last Name"
                   required
                 />
               </div>
 
               <div className="Minfo">
-                <input type="email" name="email" placeholder="Email" required />
-                <input type="text" name="Company" placeholder="Company" />
+                <input
+                  type="email"
+                  name="email"
+                  value={client.email}
+                  onChange=''
+                  placeholder="Email"
+                  required />
+                <input
+                  type="text"
+                  name="company"
+                  value={client.company}
+                  onChange=''
+                  placeholder="Company" />
               </div>
               <div className="Msubject">
-                <select name="subject" id="Msubj" placeholder="Subject">
+                <select
+                  name="subject"
+                  id="Msubj"
+                  value={client.subject}
+                  onChange=''
+                  placeholder="Subject">
                   <option value="Inquiry">Inquiry</option>
                   <option value="">Are you available</option>
                   <option value="">Interview requested</option>
@@ -54,6 +94,8 @@ const Contact = () => {
                 <textarea
                   name="message"
                   id="Mmsg"
+                  value={client.message}
+                  onChange=''
                   cols="30"
                   rows="10"
                 ></textarea>
@@ -69,28 +111,46 @@ const Contact = () => {
       <OnDesktop>
         <div className="contact_container">
           <section className="form_section">
-            <form action="" method="post" className="contact_form">
+            <form onSubmit={} className="contact_form">
               <div id="name">
                 <input
                   type="text"
                   name="fname"
+                  value={client.fname}
+                  onChange=''
                   placeholder="First Name"
                   required
                 />
                 <input
                   type="text"
                   name="lname"
+                  value={clien.lname}
+                  onChange=''
                   placeholder="Last Name"
                   required
                 />
               </div>
 
               <div className="info">
-                <input type="email" name="email" placeholder="Email" required />
-                <input type="text" name="Company" placeholder="Company" />
+                <input type="email"
+                  name="email"
+                  value={client.email}
+                  onChange=''
+                  placeholder="Email"
+                  required />
+                <input type="text"
+                  name="company"
+                  value={client.company}
+                  onChange=''
+                  placeholder="Company" />
               </div>
               <div className="subject">
-                <select name="subject" id="subj" placeholder="Subject">
+                <select
+                  name="subject"
+                  id="subj"
+                  value={client.subject}
+                  onChange=''
+                  placeholder="Subject">
                   <option value="Inquiry">Inquiry</option>
                   <option value="">Are you available</option>
                   <option value="">Interview requested</option>
@@ -100,6 +160,8 @@ const Contact = () => {
                 <textarea
                   name="message"
                   id="msg"
+                  value={client.message}
+                  onChange=''
                   cols="30"
                   rows="10"
                 ></textarea>

@@ -1,5 +1,5 @@
 import React from "react";
-import api from "../assets/API.jpg";
+import api from "../assets/api-icon-3.png";
 import logo from "../assets/logo512.png";
 import signlingo from "../assets/signlingo.png";
 import me from "../assets/me.jpg";
@@ -39,7 +39,7 @@ const Home = () => {
               <img src={logo} alt="Custom App"></img>
               <h1>
                 <a href="https://www.npmjs.com/package/cra-template-duke">
-                  Custom App
+                  React Template
                 </a>
               </h1>
             </div>
@@ -47,7 +47,7 @@ const Home = () => {
               <img src={signlingo} alt="Sign Lingo"></img>
               <h1>
                 <a Href="https://github.com/Lambda-School-Labs/signlingo-be">
-                  Sign Lingo
+                  Signlingo Backend
                 </a>
               </h1>
             </div>
@@ -119,6 +119,11 @@ const Home = () => {
                       Minute
                     </a>
                   </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=3wqwaiKtiFA">
+                      Serve a React App Locally and Deploy to Your Website
+                    </a>
+                  </li>
                 </ul>
               </details>
             </div>
@@ -160,7 +165,7 @@ const Home = () => {
             <img src={logo} alt="Custom App"></img>
             <h1>
               <a href="https://www.npmjs.com/package/cra-template-duke">
-                Custom App
+                React Template
               </a>
             </h1>
           </div>
@@ -168,7 +173,7 @@ const Home = () => {
             <img src={signlingo} alt="Sign Lingo"></img>
             <h1>
               <a Href="https://github.com/Lambda-School-Labs/signlingo-be">
-                Sign Lingo
+                Signlingo Backend
               </a>
             </h1>
           </div>
@@ -204,6 +209,11 @@ const Home = () => {
                 <li>
                   <a href="http://www.allthingsdev.tech/index.php/blog/a-background-in-web-development-is-quite-useful">
                     A Background in Web Development is Quite Useful
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/watch?v=3wqwaiKtiFA">
+                    Serve a React App Locally and Deploy to Your Website
                   </a>
                 </li>
               </ul>
