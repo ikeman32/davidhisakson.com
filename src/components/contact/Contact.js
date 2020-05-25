@@ -5,7 +5,7 @@ import "./contact.scss";
 import "./contactMobile.scss";
 
 const Contact = () => {
-  const [client setClient] = useState({
+  const [client, setClient] = useState({
     fname: '',
     lname: '',
     email: '',
