@@ -51,13 +51,13 @@ const Contact = () => {
       <OnMobile>
         <div className="Mcontact_container">
           <section className="Mform_section">
-            <form onSubmit={} className="Mcontact_form">
+            <form onSubmit={submitHandler} className="Mcontact_form">
               <div id="Mname">
                 <input
                   type="text"
                   name="fname"
                   value={client.fname}
-                  onChange=''
+                  onChange={handleChange}
                   placeholder="First Name"
                   required
                 />
@@ -65,7 +65,7 @@ const Contact = () => {
                   type="text"
                   name="lname"
                   value={client.lname}
-                  onChange=''
+                  onChange={handleChange}
                   placeholder="Last Name"
                   required
                 />
@@ -76,14 +76,14 @@ const Contact = () => {
                   type="email"
                   name="email"
                   value={client.email}
-                  onChange=''
+                  onChange={handleChange}
                   placeholder="Email"
                   required />
                 <input
                   type="text"
                   name="company"
                   value={client.company}
-                  onChange=''
+                  onChange={handleChange}
                   placeholder="Company" />
               </div>
               <div className="Msubject">
@@ -91,7 +91,7 @@ const Contact = () => {
                   name="subject"
                   id="Msubj"
                   value={client.subject}
-                  onChange=''
+                  onChange={handleChange}
                   placeholder="Subject">
                   <option value="Inquiry">Inquiry</option>
                   <option value="">Are you available</option>
@@ -103,7 +103,7 @@ const Contact = () => {
                   name="message"
                   id="Mmsg"
                   value={client.message}
-                  onChange=''
+                  onChange={handleChange}
                   cols="30"
                   rows="10"
                 ></textarea>
@@ -125,7 +125,7 @@ const Contact = () => {
                   type="text"
                   name="fname"
                   value={client.fname}
-                  onChange=''
+                  onChange={handleChange}
                   placeholder="First Name"
                   required
                 />
@@ -133,7 +133,7 @@ const Contact = () => {
                   type="text"
                   name="lname"
                   value={clien.lname}
-                  onChange=''
+                  onChange={handleChange}
                   placeholder="Last Name"
                   required
                 />
@@ -143,13 +143,13 @@ const Contact = () => {
                 <input type="email"
                   name="email"
                   value={client.email}
-                  onChange=''
+                  onChange={handleChange}
                   placeholder="Email"
                   required />
                 <input type="text"
                   name="company"
                   value={client.company}
-                  onChange=''
+                  onChange={handleChange}
                   placeholder="Company" />
               </div>
               <div className="subject">
@@ -157,7 +157,7 @@ const Contact = () => {
                   name="subject"
                   id="subj"
                   value={client.subject}
-                  onChange=''
+                  onChange={handleChange}
                   placeholder="Subject">
                   <option value="Inquiry">Inquiry</option>
                   <option value="">Are you available</option>
@@ -169,7 +169,7 @@ const Contact = () => {
                   name="message"
                   id="msg"
                   value={client.message}
-                  onChange=''
+                  onChange={handleChange}
                   cols="30"
                   rows="10"
                 ></textarea>
