@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { layoutGenerator } from "react-break";
+import axios from 'axios';
 import "./contact.scss";
 import "./contactMobile.scss";
 
@@ -21,6 +22,13 @@ const Contact = () => {
 
   const submitHandler = (e) =>{
     e.preventDefault();
+    axios
+      .post('http://localhost:3300/send', client)
+      .then(res =>{
+        const { data } = res;
+        console.log("post", data);
+
+      })
   }
 
   //configure responsiveness
