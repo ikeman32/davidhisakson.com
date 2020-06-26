@@ -119,7 +119,7 @@ const Contact = () => {
       <OnDesktop>
         <div className="contact_container">
           <section className="form_section">
-            <form onSubmit={} className="contact_form">
+            <form  className="contact_form">
               <div id="name">
                 <input
                   type="text"
@@ -132,7 +132,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="lname"
-                  value={clien.lname}
+                  value={client.lname}
                   onChange={handleChange}
                   placeholder="Last Name"
                   required

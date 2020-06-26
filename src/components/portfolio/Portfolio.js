@@ -4,6 +4,7 @@ import "./portfolioMobile.scss"
 import api from "../assets/api-icon-3.png";
 import logo from "../assets/logo512.png";
 import signlingo from "../assets/signlingo.png";
+import gameoflife from '../assets/gameoflife.gif';
 import { layoutGenerator } from "react-break";
 
 const Portfolio = () => {
@@ -181,9 +182,9 @@ const Portfolio = () => {
           </p>
         </div>
       </section>
-      <section className="rowx">
+      <section className="row2">
 
-      <div id="">
+      <div id="a">
           <img src="" alt="Image"></img>
           <h1>
             <a Href="#">
@@ -194,18 +195,21 @@ const Portfolio = () => {
 
           </p>
         </div>
-        <div id="">
-          <img src="" alt="Image"></img>
+        <div id="b">
+          <img src={gameoflife} alt="Conway's Game of Life"></img>
           <h1>
-            <a Href="#">
-              project name
+            <a Href="https://www.gameoflife.davidhisakson.com/">
+              Game of Life
             </a>
           </h1>
           <p className="description">
-
+          An implementation of John Horton Conway’s Game of Life, the Game of Life 
+          is a demonstrations of a Cellular Automaton. Cellular automaton is a discrete 
+          model studied in automata theory, which is the study of abstract machines and 
+          automata, as well as the computational problems that can be solved by them.
           </p>
         </div>
-        <div id="">
+        <div id="c">
           <img src="" alt="Image"></img>
           <h1>
             <a Href="#">

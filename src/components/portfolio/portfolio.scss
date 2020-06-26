@@ -16,9 +16,21 @@ body {
       display: flex;
       justify-content: space-around;
 
+      #api{
+        img{
+          margin-left: 2.5rem;
+        }
+      }
+
       #custom_app{
         img{
-          margin-left: 3rem;
+          margin-left: 5rem;
+        }
+      }
+
+      #signlingo{
+        img{
+          margin-left: 1.5rem;
         }
       }
 
@@ -45,10 +57,77 @@ body {
       }
     } //row1
 
+    .row2 {
+      margin: 1rem 1rem;
+      //display: none;
+      justify-content: space-around;
+
+      #a{
+        display: none;
+        img{
+          margin-left: 1rem;
+        }
+      }
+
+      #b{
+        img{
+          height: 120px;
+          width: 120px;
+          margin-left: 5.5rem;
+        }
+      }
+
+      #c{
+        display: none;
+        img{
+          margin-left: 1rem;
+        }
+      }
+
+      div {
+        width: 30%;
+
+        img {
+          margin: 0 auto;
+        } //img
+      } //div
+
+      div a {
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #fc0;
+        font-weight: bold;
+        text-decoration: none;
+        outline: none;
+      } //div a
+
+      .description {
+        color: whitesmoke;
+      }
+    } //row2
     .rowx {
       margin: 1rem 1rem;
       display: none;
       justify-content: space-around;
+
+      #a{
+        img{
+          margin-left: 1rem;
+        }
+      }
+
+      #b{
+        img{
+          margin-left: 1rem;
+        }
+      }
+
+      #c{
+        img{
+          margin-left: 1rem;
+        }
+      }
 
       div {
         width: 30%;
@@ -74,3 +153,7 @@ body {
     } //rowx
   } //portflio_containr
 }
+
+
+    
+
