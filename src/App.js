@@ -35,15 +35,15 @@ function App() {
               <Link className="Mlink" to="/Portfolio">
                 Portfolio
               </Link>
-              <Link className="Mlink" to="/Services">
-                Services
+              <Link className="Mlink" to="/Videos">
+                Videos
               </Link>
               <Link className="Mlink" to="/About">
                 About
               </Link>
-              <Link className="Mlink" to="/Contact">
-                Contact
-              </Link>
+              <a className="link" href="https://blog.davidhisakson.com/">
+                Blog
+              </a>
             </nav>
           </header>
           <div className="MDisplay_Area">
@@ -67,15 +67,15 @@ function App() {
               <Link className="link" to="/Portfolio">
                 Portfolio
               </Link>
-              <Link className="link" to="/Services">
-                Services
+              <Link className="link" to="/Videos">
+                Videos
               </Link>
               <Link className="link" to="/About">
                 About
               </Link>
-              <Link className="link" to="/Contact">
-                Contact
-              </Link>
+              <a className="link" href="https://blog.davidhisakson.com/">
+                Blog
+              </a>
             </nav>
           </header>
           <div className="Display_Area">

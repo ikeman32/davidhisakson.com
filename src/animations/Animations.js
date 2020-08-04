@@ -1,4 +1,3 @@
-import React from "react";
 import { zoomIn } from "react-animations";
 import styled, { keyframes } from "styled-components";
 

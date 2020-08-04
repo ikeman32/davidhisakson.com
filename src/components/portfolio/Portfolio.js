@@ -70,9 +70,9 @@ const Portfolio = () => {
       <section className="Mrowx">
 
       <div id="">
-          <img src="" alt="Image"></img>
+          <img src="" alt=""></img>
           <h1>
-            <a Href="#">
+            <a Href="www.davidhisakson.com">
               project name
             </a>
           </h1>
@@ -81,9 +81,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div id="">
-          <img src="" alt="Image"></img>
+          <img src="" alt=""></img>
           <h1>
-            <a Href="#">
+            <a Href="www.davidhisakson.com">
               project name
             </a>
           </h1>
@@ -92,9 +92,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div id="">
-          <img src="" alt="Image"></img>
+          <img src="" alt=""></img>
           <h1>
-            <a Href="#">
+            <a Href="www.davidhisakson.com">
               project name
             </a>
           </h1>
@@ -105,9 +105,9 @@ const Portfolio = () => {
       </section>
       <section className="Mrowx">
       <div id="">
-          <img src="" alt="Image"></img>
+          <img src="" alt=""></img>
           <h1>
-            <a Href="#">
+            <a Href="www.davidhisakson.com">
               project name
             </a>
           </h1>
@@ -116,9 +116,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div id="">
-          <img src="" alt="Image"></img>
+          <img src="" alt=""></img>
           <h1>
-            <a Href="#">
+            <a Href="www.davidhisakson.com">
               project name
             </a>
           </h1>
@@ -127,9 +127,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div id="">
-          <img src="" alt="Image"></img>
+          <img src="" alt=""></img>
           <h1>
-            <a Href="#">
+            <a Href="www.davidhisakson.com">
               project name
             </a>
           </h1>
@@ -185,9 +185,9 @@ const Portfolio = () => {
       <section className="row2">
 
       <div id="a">
-          <img src="" alt="Image"></img>
+          <img src="" alt=""></img>
           <h1>
-            <a Href="#">
+            <a Href="www.davidhisakson.com">
               project name
             </a>
           </h1>
@@ -210,9 +210,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div id="c">
-          <img src="" alt="Image"></img>
+          <img src="" alt=""></img>
           <h1>
-            <a Href="#">
+            <a Href="www.davidhisakson.com">
               project name
             </a>
           </h1>
@@ -223,9 +223,9 @@ const Portfolio = () => {
       </section>
       <section className="rowx">
       <div id="">
-          <img src="" alt="Image"></img>
+          <img src="" alt=""></img>
           <h1>
-            <a Href="#">
+            <a Href="www.davidhisakson.com">
               project name
             </a>
           </h1>
@@ -234,9 +234,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div id="">
-          <img src="" alt="Image"></img>
+          <img src="" alt=""></img>
           <h1>
-            <a Href="#">
+            <a Href="www.davidhisakson.com">
               project name
             </a>
           </h1>
@@ -245,9 +245,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div id="">
-          <img src="" alt="Image"></img>
+          <img src="" alt=""></img>
           <h1>
-            <a Href="#">
+            <a Href="www.davidhisakson.com">
               project name
             </a>
           </h1>

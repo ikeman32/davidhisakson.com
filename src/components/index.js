@@ -1,7 +1,7 @@
 //Import your custom components here
 import Home from './home/Home';
 import Portfolio from './portfolio/Portfolio';
-import Services from './services/Services';
+import Videos from './videos/Videos';
 import About from './about/About';
 import Contact from './contact/Contact';
 
@@ -10,7 +10,7 @@ import Contact from './contact/Contact';
 export {
     Home, 
     Portfolio, 
-    Services, 
+    Videos, 
     About, 
     Contact
 };

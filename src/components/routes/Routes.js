@@ -2,7 +2,7 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import {Home, 
     Portfolio, 
-    Services,
+    Videos,
     About,
     Contact
 } from '../index';
@@ -12,7 +12,7 @@ const Routes = () =>{
         <>
         <Route exact path="/" component={Home} />
         <Route path='/Portfolio' component={Portfolio} />
-        <Route path='/Services' component={Services} />
+        <Route path='/Videos' component={Videos} />
         <Route path='/About' component={About} />
         <Route path='/Contact' component={Contact} />
         </>

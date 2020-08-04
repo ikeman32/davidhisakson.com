@@ -4,89 +4,13 @@ body {
   .Mabout_container {
     //border: 1px solid red;
     max-width: 100%;
+    display: flex;
+    justify-content: center;
     //margin: 0 auto;
-
-    .Mprofile {
-      //display: flex;
-
-      #Mimage {
-        //border: 1px solid blue;
-        display: none;
-        // width: 25%;
-        // margin-left: 1rem;
-        // margin-right: 1rem;
-
-        // img {
-        //   max-width: 100%;
-        //   border-radius: 50%;
-        // } //img
-      } //image
-
-      #Minfo {
-        //border: 1px solid blue;
-        //margin-left: 2rem;
-
-        h1 {
-          color: whitesmoke;
-          font-size: 1rem;
-          margin-bottom: 5%;
-        } //h1
-
-        p {
-          color: whitesmoke;
-          font-size: 0.8rem;
-          margin-bottom: 1rem;
-        } //p
-      } //info
-    } //profile
-
-    .MmissionStatement {
-      display: none;
-    //   margin-left: 2.5rem;
-    //   color: whitesmoke;
-    //   font-size: 1.4rem;
-    //   margin-top: 5%;
-    //   margin-bottom: 2%;
-    //   letter-spacing: 0.3rem;
+    iframe{
+      width: 400px;
+      height: 540px;
     }
-
-    .Meducation {
-      display: flex;
-      flex-direction: column;
-      color: whitesmoke;
-      //justify-content: space-around;
-      font-size: 10px;
-
-      .Medu {
-        .noDisplay{
-          display:none;
-        }
-
-        tr td {
-          padding-left: 1rem;
-
-          &:first-child {
-            padding-left: 0;
-          }
-        }
-      }
-    } //education
-
-    .Mhistory {
-      color: whitesmoke;
-      font-size: 10px;
-
-      .noDisplay{
-        display:none;
-      }
-
-      tr td {
-        padding-left: 1rem;
-
-        &:first-child {
-          padding-left: 0.5rem;
-        }
-      }
-    } //history
+    
   } //about_container
 }
