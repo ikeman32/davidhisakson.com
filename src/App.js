@@ -41,7 +41,7 @@ function App() {
               <Link className="Mlink" to="/About">
                 About
               </Link>
-              <a className="link" href="https://blog.davidhisakson.com/">
+              <a className="Mlink" href="https://blog.davidhisakson.com/">
                 Blog
               </a>
             </nav>
