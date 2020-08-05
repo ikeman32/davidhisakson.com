@@ -17,6 +17,25 @@ body {
       flex-direction: column;
       justify-content: space-around;
 
+      #Mapi{
+        
+        img{
+          margin-left: 4.5rem;;
+        }
+      }
+
+      #Mcustom_app{
+        img{
+          margin-left: 9rem;
+        }
+      }
+
+      #Msignlingo{
+        img{
+          margin-left: 5rem;
+        }
+      }
+
       div {
         max-width: 100%;
 
@@ -38,8 +57,67 @@ body {
 
       .Mdescription {
         color: whitesmoke;
+        width: 80%;
+        margin: 0 auto;
+        text-align: justify;
+        padding-bottom: 1rem;
       }
     } //row1
+
+    .Mrow2 {
+      //margin: 1rem 1rem;
+      // display: none;
+      justify-content: space-around;
+
+      #a2{
+        display: none;
+        img{
+          margin-left: 1rem;
+        }
+      }
+
+      #b2{
+        img{
+          height: 120px;
+          width: 120px;
+          margin-left: 9rem;
+        }
+      }
+
+      #c2{
+        display: none;
+        img{
+          margin-left: 1rem;
+        }
+      }
+
+      div {
+        max-width: 100%;
+
+        img {
+          max-width: 90%;
+          margin-left: 0.7rem;
+        } //img
+      } //div
+
+      div a {
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #fc0;
+        font-weight: bold;
+        text-decoration: none;
+        outline: none;
+      } //div a
+
+      .Mdescription {
+        color: whitesmoke;
+        width: 80%;
+        margin: 0 auto;
+        text-align: justify;
+        padding-bottom: 1rem;
+      }
+    } //row2
 
     .Mrowx {
       //margin: 1rem 1rem;
@@ -67,6 +145,9 @@ body {
 
       .Mdescription {
         color: whitesmoke;
+        width: 80%;
+        margin: 0 auto;
+        text-align: justify;
       }
     } //rowx
   } //portflio_containr
