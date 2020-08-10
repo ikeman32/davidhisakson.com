@@ -129,7 +129,7 @@ const Home = () => {
             </div>
             <div id="Mservices">
               <ul>
-                <li>Comming Soon</li>
+              <li><img align="left" alt="ikeman32's Github Stats" src="https://github-readme-stats.vercel.app/api?username=ikeman32&show_icons=true&hide_border=true&theme=blue-green" /></li>
               </ul>
             </div>
             <div id="Mabout">
@@ -255,7 +255,7 @@ const Home = () => {
           </div>
           <div id="services">
             <ul>
-              <li>Comming Soon</li>
+              <li><img align="left" alt="ikeman32's Github Stats" src="https://github-readme-stats.vercel.app/api?username=ikeman32&show_icons=true&hide_border=true&theme=blue-green" /></li>
             </ul>
           </div>
           <div id="about">

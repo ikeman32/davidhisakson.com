@@ -126,16 +126,20 @@ body {
       } //blog
 
       #services {
-        //border: 1px solid green;
-        width: 30%;
+        // border: 1px solid green;
+        width: 40%;
         color: whitesmoke;
 
         ul {
           list-style-type: none;
+          padding-left: 0px;
         } //ul
 
         li{
             margin-top: 1rem;
+            img{
+              max-width: 100%;
+            }
         }
       } //services
 

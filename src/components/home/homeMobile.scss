@@ -130,10 +130,14 @@ body {
   
           ul {
             list-style-type: none;
+            padding-left: 0px;
           } //ul
   
           li{
               margin-top: 1rem;
+              img{
+                max-width: 100%;
+              }
           }
         } //services
   
