@@ -155,27 +155,27 @@ const Home = () => {
       </OnMobile>
       <OnDesktop>
         <section className="top_panel">
-          <div id="api">
-            <img src={api} alt="dukeapi"></img>
-            <h1>
-              <a href="https://www.npmjs.com/package/dukeapi">dukeapi</a>
-            </h1>
+        <div id="about">
+            <h3>About the Author</h3>
+            <div className="imgbox">
+              <img src={me} alt="Me"></img>
+            </div>
+            <ul>
+              <li>
+                Student at <a href="https://lambdaschool.com/">Lambda School</a>
+              </li>
+              <li>US Army Veteran</li>
+              <li>
+                <Link id="Link" to="/About">
+                  read more...
+                </Link>
+              </li>
+            </ul>
           </div>
-          <div id="custom_app">
-            <img src={logo} alt="Custom App"></img>
-            <h1>
-              <a href="https://www.npmjs.com/package/cra-template-duke">
-                React Template
-              </a>
-            </h1>
-          </div>
-          <div id="signlingo">
-            <img src={signlingo} alt="Sign Lingo"></img>
-            <h1>
-              <a Href="https://github.com/Lambda-School-Labs/signlingo-be">
-                Signlingo Backend
-              </a>
-            </h1>
+          <div id="services">
+            <ul>
+              <li><img align="left" alt="ikeman32's Github Stats" src="https://github-readme-stats.vercel.app/api?username=ikeman32&show_icons=true&hide_border=true&theme=blue-green" /></li>
+            </ul>
           </div>
         </section>
         <section className="bottom_panel">
@@ -253,28 +253,8 @@ const Home = () => {
               </ul>
             </details>
           </div>
-          <div id="services">
-            <ul>
-              <li><img align="left" alt="ikeman32's Github Stats" src="https://github-readme-stats.vercel.app/api?username=ikeman32&show_icons=true&hide_border=true&theme=blue-green" /></li>
-            </ul>
-          </div>
-          <div id="about">
-            <h3>About the Author</h3>
-            <div className="imgbox">
-              <img src={me} alt="Me"></img>
-            </div>
-            <ul>
-              <li>
-                Student at <a href="https://lambdaschool.com/">Lambda School</a>
-              </li>
-              <li>US Army Veteran</li>
-              <li>
-                <Link id="Link" to="/About">
-                  read more...
-                </Link>
-              </li>
-            </ul>
-          </div>
+          
+          
         </section>
       </OnDesktop>
     </div>
