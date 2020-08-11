@@ -1,40 +1,21 @@
 body {
   background: #4b4c3e;
 
-  .outside{
+  .outside {
     width: 100%;
   }
 
   .home_container {
     .top_panel {
-      //border: 2px solid blue;
+      // border: 2px solid blue;
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
-      margin: 1rem 1rem;
+      justify-content: center;
       height: 45%;
       padding: 1rem;
 
-      #services {
-        // border: 1px solid green;
-        width: 40%;
-        color: whitesmoke;
-
-        ul {
-          list-style-type: none;
-          padding-left: 0px;
-        } //ul
-
-        li{
-            margin-top: 1rem;
-            img{
-              max-width: 100%;
-            }
-        }
-      } //services
-
       #about {
-        //border: 3px solid green;
+        // border: 3px solid green;
         width: 30%;
 
         h3 {
@@ -57,8 +38,8 @@ body {
           list-style-type: none;
         } //ul
 
-        li{
-            margin-top: 1rem;
+        li {
+          margin-top: 1rem;
         }
 
         a {
@@ -71,6 +52,27 @@ body {
           text-decoration: none;
         }
       } //about
+      #github {
+        // border: 1px solid green;
+        width: 40%;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        ul {
+          list-style-type: none;
+          padding-left: 0px;
+          li {
+            margin-top: 1rem;
+            img {
+              max-width: 100%;
+            }
+          }
+        } //ul
+
+        
+      } //github
     } //top_panel
 
     .bottom_panel {
@@ -78,48 +80,28 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      margin: 2rem 1rem;
+      // margin-top: 1rem;
       height: 45%;
       max-width: 100%;
       padding: 1rem;
 
-      #blog {
-        //border: 1px solid green;
-        width: 30%;
+      #mission {
+        width: 90%;
         color: whitesmoke;
 
-        a {
-          text-decoration: none;
-          color: whitesmoke;
+        h3{
+          text-align: center;
+          letter-spacing: 0.7rem;
+        }
 
-          &:hover {
-            color: #fc0;
-          } //hover
-        } //a
-
-        details {
-          ul {
-            list-style-type: none;
-          }
-
+        #tech-stack{
+          list-style: none;
           li{
-              margin-top: 1rem;
+            float: left;
+            padding-left: 0.5rem;
           }
-        } //details ul
-
-        details ul li {
-          a {
-            text-decoration: none;
-            color: whitesmoke;
-
-            &:hover {
-              color: #fc0;
-            } //hover
-          } //a
-        } //details ul li
-      } //blog
-
-      
+        }
+      }
     } //bottom_panel
   } //home_container
 }
