@@ -32,8 +32,8 @@ function App() {
               <Link className="Mlink" to="/">
                 Home
               </Link>
-              <Link className="Mlink" to="/Portfolio">
-                Portfolio
+              <Link className="Mlink" to="/Projects">
+                Projects
               </Link>
               <Link className="Mlink" to="/Videos">
                 Videos
@@ -64,8 +64,8 @@ function App() {
               <Link className="link" to="/">
                 Home
               </Link>
-              <Link className="link" to="/Portfolio">
-                Portfolio
+              <Link className="link" to="/Projects">
+                Projects
               </Link>
               <Link className="link" to="/Videos">
                 Videos
