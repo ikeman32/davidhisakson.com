@@ -232,7 +232,7 @@ const Portfolio = () => {
             </a>
               </h1>
               <p className="description">
-                Electron js is a framework for building desktop applications using Javascript, HTML and CSS. Some popular applications built with Electron are: VS Code, Slack, What’s App, Twitch, Mircorsoft Teams, and InVision. This personally built React Template incorporates Electron js and is configured to build applications for Window, Mac and Linux.
+              A Facebook Clone built on React and Firebase Firestore, it is still a work in progress and is partially functional. When complete it will be an open source template for setting up a social media website. Presently only the backend is on firebase, once more functionality is built in a fully functional demo will be deployed.
               </p>
             </div>
           </section>
