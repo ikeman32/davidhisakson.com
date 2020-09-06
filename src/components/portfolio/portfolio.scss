@@ -59,12 +59,14 @@ body {
 
     .row2 {
       margin: 1rem 1rem;
-      //display: none;
+      display: flex;
       justify-content: space-around;
 
       #a{
-        display: none;
+        // display: none;
         img{
+          height: 120px;
+          width: 120px;
           margin-left: 1rem;
         }
       }
@@ -78,8 +80,10 @@ body {
       }
 
       #c{
-        display: none;
+        // display: none;
         img{
+          height: 120px;
+          width: 120px;
           margin-left: 1rem;
         }
       }

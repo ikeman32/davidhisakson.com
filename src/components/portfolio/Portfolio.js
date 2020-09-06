@@ -29,7 +29,8 @@ const Portfolio = () => {
         <div className="Mportfolio_container">
           <section className="Mrow1">
             <div id="Mapi">
-              <img src={api} alt="dukeapi"></img>
+              <a href="https://www.npmjs.com/package/dukeapi">
+              <img src={api} alt="dukeapi"></img></a>
               <h1>
                 <a href="https://www.npmjs.com/package/dukeapi">dukeapi</a>
               </h1>
@@ -41,7 +42,8 @@ const Portfolio = () => {
           </p>
             </div>
             <div id="Mcustom_app">
-              <img src={logo} alt="Custom App"></img>
+              <a href="https://www.npmjs.com/package/cra-template-duke">
+              <img src={logo} alt="Custom App"></img></a>
               <h1>
                 <a href="https://www.npmjs.com/package/cra-template-duke">
                   React Template
@@ -54,7 +56,8 @@ const Portfolio = () => {
           </p>
             </div>
             <div id="Msignlingo">
-              <img src={signlingo} alt="Sign Lingo"></img>
+            <a Href="https://github.com/Lambda-School-Labs/signlingo-be">
+              <img src={signlingo} alt="Sign Lingo"></img></a>
               <h1>
                 <a Href="https://github.com/Lambda-School-Labs/signlingo-be">
                   Signlingo Backend
@@ -70,18 +73,20 @@ const Portfolio = () => {
           <section className="Mrow2">
 
             <div id="a2">
-              <img src="" alt=""></img>
+              <a Href="https://www.npmjs.com/package/cra-template-electronapp">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg" alt=""></img></a>
               <h1>
-                <a Href="www.davidhisakson.com">
-                  project name
-            </a>
+                <a Href="https://www.npmjs.com/package/cra-template-electronapp">
+                  Electronjs React Template
+                </a>
               </h1>
               <p className="Mdescription">
-
+                Electron js is a framework for building desktop applications using Javascript, HTML and CSS. Some popular applications built with Electron are: VS Code, Slack, What’s App, Twitch, Mircorsoft Teams, and InVision. This personally built React Template incorporates Electron js and is configured to build applications for Window, Mac and Linux.
               </p>
             </div>
             <div id="b2">
-              <img src={gameoflife} alt="Conway's Game of Life"></img>
+              <a Href="https://www.gameoflife.davidhisakson.com/">
+              <img src={gameoflife} alt="Conway's Game of Life"></img></a>
               <h1>
                 <a Href="https://www.gameoflife.davidhisakson.com/">
                   Game of Life
@@ -95,14 +100,15 @@ const Portfolio = () => {
           </p>
             </div>
             <div id="c2">
-              <img src="" alt=""></img>
+              <a Href="https://github.com/ikeman32/fb-clone">
+              <img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=120&h=120" alt=""></img></a>
               <h1>
-                <a Href="www.davidhisakson.com">
-                  project name
+                <a Href="https://github.com/ikeman32/fb-clone">
+                  Facebook Clone
             </a>
               </h1>
               <p className="Mdescription">
-
+                A Facebook Clone built on React and Firebase Firestore, it is still a work in progress and is partially functional. When complete it will be an open source template for setting up a social media website. Presently only the backend is on firebase, once more functionality is built in a fully functional demo will be deployed.
               </p>
             </div>
           </section>
@@ -147,7 +153,8 @@ const Portfolio = () => {
         <div className="portfolio_container">
           <section className="row1">
             <div id="api">
-              <img src={api} alt="dukeapi"></img>
+              <a href="https://www.npmjs.com/package/dukeapi">
+              <img src={api} alt="dukeapi"></img></a>
               <h1>
                 <a href="https://www.npmjs.com/package/dukeapi">dukeapi</a>
               </h1>
@@ -159,7 +166,8 @@ const Portfolio = () => {
           </p>
             </div>
             <div id="custom_app">
-              <img src={logo} alt="Custom App"></img>
+              <a href="https://www.npmjs.com/package/cra-template-duke">
+              <img src={logo} alt="Custom App"></img></a>
               <h1>
                 <a href="https://www.npmjs.com/package/cra-template-duke">
                   React Template
@@ -172,7 +180,8 @@ const Portfolio = () => {
           </p>
             </div>
             <div id="signlingo">
-              <img src={signlingo} alt="Sign Lingo"></img>
+            <a Href="https://github.com/Lambda-School-Labs/signlingo-be">
+              <img src={signlingo} alt="Sign Lingo"></img></a>
               <h1>
                 <a Href="https://github.com/Lambda-School-Labs/signlingo-be">
                   Signlingo Backend
@@ -188,18 +197,20 @@ const Portfolio = () => {
           <section className="row2">
 
             <div id="a">
-              <img src="" alt=""></img>
+              <a Href="https://www.npmjs.com/package/cra-template-electronapp">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg" alt=""></img></a>
               <h1>
-                <a Href="www.davidhisakson.com">
-                  project name
-            </a>
+                <a Href="https://www.npmjs.com/package/cra-template-electronapp">
+                  Electronjs React Template
+                </a>
               </h1>
               <p className="description">
-
+                Electron js is a framework for building desktop applications using Javascript, HTML and CSS. Some popular applications built with Electron are: VS Code, Slack, What’s App, Twitch, Mircorsoft Teams, and InVision. This personally built React Template incorporates Electron js and is configured to build applications for Window, Mac and Linux.
               </p>
             </div>
             <div id="b">
-              <img src={gameoflife} alt="Conway's Game of Life"></img>
+              <a Href="https://www.gameoflife.davidhisakson.com/">
+              <img src={gameoflife} alt="Conway's Game of Life"></img></a>
               <h1>
                 <a Href="https://www.gameoflife.davidhisakson.com/">
                   Game of Life
@@ -213,14 +224,15 @@ const Portfolio = () => {
           </p>
             </div>
             <div id="c">
-              <img src="" alt=""></img>
+            <a Href="https://github.com/ikeman32/fb-clone">
+              <img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" alt=""></img></a>
               <h1>
-                <a Href="www.davidhisakson.com">
-                  project name
+                <a Href="https://github.com/ikeman32/fb-clone">
+                  Facebook Clone
             </a>
               </h1>
               <p className="description">
-
+                Electron js is a framework for building desktop applications using Javascript, HTML and CSS. Some popular applications built with Electron are: VS Code, Slack, What’s App, Twitch, Mircorsoft Teams, and InVision. This personally built React Template incorporates Electron js and is configured to build applications for Window, Mac and Linux.
               </p>
             </div>
           </section>
